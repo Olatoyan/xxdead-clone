@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #000;
+  font-family: "DM Mono", monospace;
+  color: #fff;
+  line-height: 1;
+}
+/* ********************
+REUSABLE ITEMS
+***********************/
+
+/* ********************
+END REUSABLE ITEMS
+***********************/
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.header__logo-box {
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.header__text {
+  text-align: center;
+  font-size: 2.4rem;
+  border: 1px solid #fff;
+  padding: 1rem;
+}
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav__text {
+  font-size: 1.6rem;
+  padding: 2rem;
+  border-bottom: 1px solid #fff;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+}
+
+.headers__logo {
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 1px solid #000;
+  /* color: #fff; */
+}
+
+/* ////////////////////////////////////////
+HERO SECTION
+//////////////////////////////////////// */
+
+.main {
+}
+.hero__section {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+  gap: 4rem;
+  overflow-x: hidden;
+}
+
+.heading__box {
+  align-self: flex-start;
+}
+.hero__secondary__heading {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+}
+.primary__heading {
+  font-size: 9rem;
+  text-transform: uppercase;
+}
+
+.hero__img-box {
+  padding: 0 3rem;
+}
+
+.hero__img {
+  width: 100%;
+}
+
+.hero__text-box {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  gap: 1.5rem;
+}
+.hero__text {
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  line-height: 1.1;
+  letter-spacing: 1px;
+  width: 50%;
+}
+.btn:link,
+.btn:visited {
+  text-decoration: none;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #f50f0f;
+  padding: 1.4rem 3.5rem;
+}
+
+.scroll-container {
+  display: flex;
+  justify-content: flex-start;
+  overflow: hidden;
+}
+
+.scroll-text {
+  font-family: "Caveat", cursive;
+  font-weight: 600;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  white-space: nowrap;
+  padding: 0 15rem;
+  animation: move-rtl 6000ms linear infinite;
+}
+
+@keyframes move-rtl {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* ////////////////////////////////////////
+JOURNEY SECTION
+//////////////////////////////////////// */
+
+.journey__section {
+  /* display: flex;
+  flex-direction: column; */
+  gap: 1.3rem;
+  /* align-items: center; */
+}
+
+.journey__box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-image: url(assets/img/alpha\ x\ door\ 1.png);
+  background-size: cover;
+  background-position: center;
+  place-items: center;
+  column-gap: 3rem;
+  row-gap: 12rem;
+  padding: 4rem;
+  width: 70%;
+  border: 1px solid #fff;
+}
+.journey__phase-box {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1.2rem;
+  width: 65%;
+  border: 1px solid #f50f0f;
+}
+.phase__heading {
+  font-size: 2.3rem;
+  text-align: center;
+}
+.phase__text {
+  font-size: 1.6rem;
+}
+
+/* ////////////////////////////////////////
+PROPERTY SECTION
+//////////////////////////////////////// */
+
+.property__section {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+
+  gap: 1rem;
+}
+.property__text-box {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 60%;
+}
+.property__text {
+  font-size: 1.6rem;
+  line-height: 1.1;
+}
+
+/* ////////////////////////////////////////
+TEAM SECTION
+//////////////////////////////////////// */
+
+.team__section {
+  gap: 1rem;
+}
+.team__img-box {
+  background-image: url(assets/img/alpha\ x\ house.png);
+
+  background-size: auto 45%;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  width: 50%;
+  gap: 4rem;
+}
+.img__box--1,
+.img__box--2 {
+  display: flex;
+  gap: 2.4rem;
+}
+
+.img__text-box {
+  gap: 1rem;
+}
+
+.img__user {
+  font-size: 1.6rem;
+}
+
+.team__img {
+  width: 100%;
+
+  border-radius: 5rem;
+}
+
+/* ////////////////////////////////////////
+FOOTER SECTION
+//////////////////////////////////////// */
+
+.footer__text {
+  text-align: center;
+  font-size: 1.7rem;
+  border: 1px solid #fff;
+  padding: 1.5rem 3rem;
+}

@@ -1,0 +1,32 @@
+/* .margin-sm {
+  margin-bottom: 3rem;
+} */
+
+/* .margin-md {
+  margin-bottom: 2rem;
+} */
+
+.margin-lg {
+  margin-bottom: 2rem;
+}
+
+.padding-sm {
+  padding: 2rem 10rem;
+}
+
+.secondary__heading {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.align--center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.span-red {
+  color: #f50f0f;
+}

@@ -1,0 +1,101 @@
+@media only screen and (max-width: 75em) {
+  .primary__heading {
+    font-size: 7rem;
+  }
+
+  .hero__section {
+    gap: 4rem;
+  }
+
+  .hero__text {
+    width: 60%;
+  }
+
+  .journey__box {
+    width: 100%;
+  }
+
+  .property__text-box {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 64em) {
+  .padding-sm {
+    padding: 2rem 6rem;
+  }
+  .journey__phase-box {
+    width: 100%;
+  }
+  .hero__text {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 56.25em) {
+  html {
+    font-size: 50%;
+  }
+
+  .journey__phase-box {
+    padding: 1.3rem 1.6rem;
+  }
+  .property__text-box {
+    gap: 2.6rem;
+    width: 85%;
+  }
+
+  .property__text {
+    line-height: 1.4;
+  }
+}
+
+@media only screen and (max-width: 39.5em) {
+  .primary__heading {
+    font-size: 5rem;
+  }
+
+  .padding-sm {
+    padding: 2rem 3rem;
+  }
+
+  .header__text {
+    font-size: 2rem;
+  }
+
+  .property__text-box {
+    width: 100%;
+  }
+
+  .team__section {
+    background-image: url(assets/img/alpha\ x\ house.png);
+
+    background-size: auto 45%;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+  }
+
+  .team__img-box {
+    background-image: none;
+  }
+
+  .team__img {
+  }
+}
+
+@media only screen and (max-width: 28.125em) {
+  html {
+    font-size: 37.5%;
+  }
+
+  .hero__text {
+    width: 100%;
+  }
+  .journey__box {
+    padding: 1.4rem;
+  }
+
+  .img__box--2 {
+    width: 70%;
+  }
+}
